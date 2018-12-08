@@ -10,5 +10,5 @@
      data:
       short_description: "This is a test incident opened by Ansible"
       severity: 1
-      priority: 4
+      priority: 5
       table: change_request
