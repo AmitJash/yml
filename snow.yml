@@ -9,6 +9,6 @@
      state: present
      data:
       short_description: "This is a test incident opened by Ansible"
-      severity: 3
+      severity: 1
       priority: 4
       table: change_request
