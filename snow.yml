@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Create an incident
+    snow_record:
+     username: admin
+     password: aPhBR1es9wOS
+     instance: dev58670
+     state: present
+     data:
+      short_description: "This is a test incident opened by Ansible"
+      severity: 3
+      priority: 2
+      table: change_request
